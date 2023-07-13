@@ -1,4 +1,4 @@
-local repo = "https://raw.githubusercontent.com/141ms/seahub-loader/main"
+local repo = "https://raw.githubusercontent.com/141ms/seahub-loader/main/"
 local function LoadScript(ScriptName)
 	pcall(function()
 		t = 0
