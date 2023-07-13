@@ -22,8 +22,8 @@ local PlaceIds = {
 	["AA2"] = { 8349889591 }
 }
 if table.find(PlaceIds["AA"], Id) then -- Anime Adventures
-	LoadScript("")
+	LoadScript("lobby.lua")
 elseif table.find(PlaceIds["AA2"], Id) then -- Blox Fruits
-	LoadScript("")
+	LoadScript("game.lua")
 	end
 end
