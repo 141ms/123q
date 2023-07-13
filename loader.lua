@@ -1,4 +1,4 @@
-local repo = 
+local repo = "https://raw.githubusercontent.com/141ms/seahub-loader/main"
 local function LoadScript(ScriptName)
 	pcall(function()
 		t = 0
@@ -22,8 +22,8 @@ local PlaceIds = {
 	["AA2"] = { 8349889591 }
 }
 if table.find(PlaceIds["AA"], Id) then -- Anime Adventures
-	LoadScript("Anime%20Adventures.lua")
+	LoadScript("")
 elseif table.find(PlaceIds["AA2"], Id) then -- Blox Fruits
-	LoadScript("BloxFruits.lua")
+	LoadScript("")
 	end
 end
